@@ -1,0 +1,29 @@
+﻿@inherits LayoutComponentBase
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-12 non-padding">
+            <div class="sidebar">
+                <NavMenu />
+            </div>
+        </div>
+        <div class="col-md-10 col-sm-12 non-padding">
+            <div class="main">
+                <div class="top-row px-4 auth top-line">
+                    <LoginDisplay />
+                </div>
+
+                <div class="content px-4">
+                    @Body
+                </div>
+
+                <div class="footer">
+                    <div class="footer-text">
+                        © 2020 Copyright: Demonick. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
