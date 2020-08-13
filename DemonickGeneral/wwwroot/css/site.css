@@ -219,3 +219,34 @@ a:hover {
 .non-padding {
     padding: 0 0 !important;
 }
+
+.panel-header {
+    background-color: #0a2464;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    padding: 15px;
+}
+
+.edit-card-container {
+    border: 1px groove #3a0647;
+    border-radius: 10px;
+    width: 200px;
+    height: 230px;
+    margin: 5px 0;
+}
+
+.edit-card-header {
+    border-bottom: 3px groove #000;
+    background-color: #3a0647;
+    color: #fff;
+    font-weight: bold;
+}
+
+.edit-card-image {
+    height: 190px;
+    width: 190px;
+}
+
+a {
+    cursor: pointer;
+}
